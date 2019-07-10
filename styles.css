@@ -1,0 +1,26 @@
+h1{
+  border: 10px solid white;
+}
+
+.images {
+  height: 400px;
+  width: 275px;
+  object-fit: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  display: inline;
+  border: 5px solid white;
+}
+
+#left-pic{
+  margin-left: 20px;
+}
+
+#right-pic{
+  margin-right: 20px;
+}
+.gallery {
+  text-align: justify;
+  justify-content: space-around;
+
+}
