@@ -1,5 +1,11 @@
 h1{
   border: 10px solid white;
+  font-size: 100px
+}
+
+.title{
+  display: flex;
+  justify-content: center;
 }
 
 .images {
@@ -8,9 +14,26 @@ h1{
   object-fit: cover;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  display: inline;
+  /* display: inline; */
   border: 5px solid white;
 }
+
+.images1 {
+  height: 400px;
+  width: 275px;
+  object-fit: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  /* display: inline; */
+  border: 5px solid white;
+}
+
+
+/*#bottom1{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+*/
 
 #left-pic{
   margin-left: 20px;
@@ -19,8 +42,9 @@ h1{
 #right-pic{
   margin-right: 20px;
 }
+
 .gallery {
   text-align: justify;
   justify-content: space-around;
-
+  display:flex;
 }
